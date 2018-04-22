@@ -15,6 +15,19 @@
 		8407D12B208BD14F00D6688E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8407D129208BD14F00D6688E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		845F11B1208D0BC000C667AB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		03B547C477C3D13D071521CB /* Pods_MotionDetectionApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MotionDetectionApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		804E87E22B015AECEE8AA2F4 /* Pods-MotionDetectionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotionDetectionApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MotionDetectionApp/Pods-MotionDetectionApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,6 +113,7 @@
 				8407D11A208BD14E00D6688E /* Frameworks */,
 				8407D11B208BD14E00D6688E /* Resources */,
 				FE625009FB1C1F17BAFC7FFB /* [CP] Embed Pods Frameworks */,
+				845F11B1208D0BC000C667AB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -349,7 +363,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Z6LRSD42F;
 				INFOPLIST_FILE = MotionDetectionApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = admin.MotionDetectionApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -365,7 +382,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Z6LRSD42F;
 				INFOPLIST_FILE = MotionDetectionApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = admin.MotionDetectionApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

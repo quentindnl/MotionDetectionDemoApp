@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBAction func startButton(_ sender: Any) {
         let detect = Detection()
         detect.startMotionDetection()
-        _ = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(update), userInfo: nil, repeats: true)
+        _ = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(update), userInfo: nil, repeats: true)
         
     }
     
