@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06D7B9BC172613CB7C9E0C85CB6C1427 /* Detection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6702076FB9AFF21A038BC261E5E560C4 /* Detection.swift */; };
+		0DE36F72E152C4AF23ECB932BACDE509 /* Pods-MotionDetectionApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A40E4AC1E63177E698ACD5157A400BB /* Pods-MotionDetectionApp-dummy.m */; };
+		196DAED88C73CD90D948C0EBE83ABBAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		275F80A034B83D73A90DCA1DCB57ED73 /* Pods-MotionDetectionApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBE72B2A0978639B58A8704A165B272F /* Pods-MotionDetectionApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31A07C601CF00053A305BACFB02F97F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		973964F88684253D0CB2A90C744BD2AE /* MotionDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FD18686A1E1DDA2157A6B0FEAB75F3 /* MotionDetection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACC355078D8829267857B95ED582C892 /* MotionDetection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6FB57BF1A5E716F807236FB015C73FD /* MotionDetection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED3E1C257E8B588BBBDF5F3212B96D44 /* MotionDetection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A89267BB5DBC99CBE40252A98AA0BA43 /* MotionDetection-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6131A81C5F533ABCF08E66AA6D94B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D192C8BD0F5743F062673FCFD563BE34;
+			remoteInfo = MotionDetection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052C50CB4D9114D99E8D067563529989 /* Pods-MotionDetectionApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MotionDetectionApp.modulemap"; sourceTree = "<group>"; };
+		1676EB571A7F5EF053DA07F088A94916 /* Pods-MotionDetectionApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MotionDetectionApp-frameworks.sh"; sourceTree = "<group>"; };
+		211DCB62136CF4EB91B21CE77FDEFDA6 /* Pods-MotionDetectionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotionDetectionApp.debug.xcconfig"; sourceTree = "<group>"; };
+		22FD18686A1E1DDA2157A6B0FEAB75F3 /* MotionDetection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MotionDetection.h; path = MotionDetection/MotionDetection.h; sourceTree = "<group>"; };
+		3E49DF93EAA83E9E6CB90453BC4B75D3 /* Pods-MotionDetectionApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MotionDetectionApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A40E4AC1E63177E698ACD5157A400BB /* Pods-MotionDetectionApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MotionDetectionApp-dummy.m"; sourceTree = "<group>"; };
+		5A84E7A412B53D66086E28B5C202FABE /* MotionDetection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MotionDetection.framework; path = MotionDetection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6702076FB9AFF21A038BC261E5E560C4 /* Detection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Detection.swift; path = MotionDetection/Detection.swift; sourceTree = "<group>"; };
+		8E26230BD5560C87BE7678F47895DDC6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99238E0C281B710EC13287C88E93F2BA /* Pods-MotionDetectionApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MotionDetectionApp-resources.sh"; sourceTree = "<group>"; };
+		A3D66043AE5A20936646858F8D0EC31C /* MotionDetection.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MotionDetection.xcconfig; sourceTree = "<group>"; };
+		A768529A1C3F9B236CAF369CD2E18DF8 /* MotionDetection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MotionDetection.modulemap; sourceTree = "<group>"; };
+		A89267BB5DBC99CBE40252A98AA0BA43 /* MotionDetection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MotionDetection-dummy.m"; sourceTree = "<group>"; };
+		AAB6309ACEBB91A56B587F3D9FBAB027 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6FB57BF1A5E716F807236FB015C73FD /* MotionDetection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MotionDetection-umbrella.h"; sourceTree = "<group>"; };
+		C7D92B8F08B1FDD4A4E423BDF6B4DCB0 /* Pods_MotionDetectionApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MotionDetectionApp.framework; path = "Pods-MotionDetectionApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D719CC17AB14109ED6B15780A39F84C1 /* MotionDetection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MotionDetection-prefix.pch"; sourceTree = "<group>"; };
+		DAE0D883597E8314D66664B21D191C55 /* Pods-MotionDetectionApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MotionDetectionApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBE72B2A0978639B58A8704A165B272F /* Pods-MotionDetectionApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MotionDetectionApp-umbrella.h"; sourceTree = "<group>"; };
+		E25E0841AB122DCD6A829FDA94623034 /* Pods-MotionDetectionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotionDetectionApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		291C7D8669C5468C37C2B42D4A6C5433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A07C601CF00053A305BACFB02F97F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B33672D8171F6B80632BBEBC681EF6CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196DAED88C73CD90D948C0EBE83ABBAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F51FA89853C335DB6122C59D611253B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A84E7A412B53D66086E28B5C202FABE /* MotionDetection.framework */,
+				C7D92B8F08B1FDD4A4E423BDF6B4DCB0 /* Pods_MotionDetectionApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52EF1A87E9BDA52A614C28706C348E5E /* MotionDetection */ = {
+			isa = PBXGroup;
+			children = (
+				6702076FB9AFF21A038BC261E5E560C4 /* Detection.swift */,
+				22FD18686A1E1DDA2157A6B0FEAB75F3 /* MotionDetection.h */,
+				D082426D31EC0A8DF8577ACD687194A4 /* Support Files */,
+			);
+			name = MotionDetection;
+			path = MotionDetection;
+			sourceTree = "<group>";
+		};
+		645B1093D5CBFA668E1C355F5F062A6A /* Pods-MotionDetectionApp */ = {
+			isa = PBXGroup;
+			children = (
+				AAB6309ACEBB91A56B587F3D9FBAB027 /* Info.plist */,
+				052C50CB4D9114D99E8D067563529989 /* Pods-MotionDetectionApp.modulemap */,
+				3E49DF93EAA83E9E6CB90453BC4B75D3 /* Pods-MotionDetectionApp-acknowledgements.markdown */,
+				DAE0D883597E8314D66664B21D191C55 /* Pods-MotionDetectionApp-acknowledgements.plist */,
+				4A40E4AC1E63177E698ACD5157A400BB /* Pods-MotionDetectionApp-dummy.m */,
+				1676EB571A7F5EF053DA07F088A94916 /* Pods-MotionDetectionApp-frameworks.sh */,
+				99238E0C281B710EC13287C88E93F2BA /* Pods-MotionDetectionApp-resources.sh */,
+				DBE72B2A0978639B58A8704A165B272F /* Pods-MotionDetectionApp-umbrella.h */,
+				211DCB62136CF4EB91B21CE77FDEFDA6 /* Pods-MotionDetectionApp.debug.xcconfig */,
+				E25E0841AB122DCD6A829FDA94623034 /* Pods-MotionDetectionApp.release.xcconfig */,
+			);
+			name = "Pods-MotionDetectionApp";
+			path = "Target Support Files/Pods-MotionDetectionApp";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C507BF0C923AAF00ABA8B528FE87AB7C /* Pods */,
+				4F51FA89853C335DB6122C59D611253B /* Products */,
+				95A9DD9882B918F70CD43FE696E6DF1C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		95A9DD9882B918F70CD43FE696E6DF1C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				645B1093D5CBFA668E1C355F5F062A6A /* Pods-MotionDetectionApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C507BF0C923AAF00ABA8B528FE87AB7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52EF1A87E9BDA52A614C28706C348E5E /* MotionDetection */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D082426D31EC0A8DF8577ACD687194A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E26230BD5560C87BE7678F47895DDC6 /* Info.plist */,
+				A768529A1C3F9B236CAF369CD2E18DF8 /* MotionDetection.modulemap */,
+				A3D66043AE5A20936646858F8D0EC31C /* MotionDetection.xcconfig */,
+				A89267BB5DBC99CBE40252A98AA0BA43 /* MotionDetection-dummy.m */,
+				D719CC17AB14109ED6B15780A39F84C1 /* MotionDetection-prefix.pch */,
+				B6FB57BF1A5E716F807236FB015C73FD /* MotionDetection-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MotionDetection";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		50114E05C1544FDC314060FF82FBF230 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC355078D8829267857B95ED582C892 /* MotionDetection-umbrella.h in Headers */,
+				973964F88684253D0CB2A90C744BD2AE /* MotionDetection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F0598A3B252888FE4858949FE50FDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275F80A034B83D73A90DCA1DCB57ED73 /* Pods-MotionDetectionApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D192C8BD0F5743F062673FCFD563BE34 /* MotionDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4374AD185F35693E794A0F6133A915B3 /* Build configuration list for PBXNativeTarget "MotionDetection" */;
+			buildPhases = (
+				BAF996F9EE8069DCBB59AE62E21DA448 /* Sources */,
+				B33672D8171F6B80632BBEBC681EF6CC /* Frameworks */,
+				50114E05C1544FDC314060FF82FBF230 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionDetection;
+			productName = MotionDetection;
+			productReference = 5A84E7A412B53D66086E28B5C202FABE /* MotionDetection.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB7615F0AE2B11E857654D9C1B39008F /* Pods-MotionDetectionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5404B190A41846A69843556527CE4E /* Build configuration list for PBXNativeTarget "Pods-MotionDetectionApp" */;
+			buildPhases = (
+				F7547332DEC567B8C3B00D582886E0FA /* Sources */,
+				291C7D8669C5468C37C2B42D4A6C5433 /* Frameworks */,
+				F9F0598A3B252888FE4858949FE50FDA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				348D76AC47C581FEE510873451BA0EDE /* PBXTargetDependency */,
+			);
+			name = "Pods-MotionDetectionApp";
+			productName = "Pods-MotionDetectionApp";
+			productReference = C7D92B8F08B1FDD4A4E423BDF6B4DCB0 /* Pods_MotionDetectionApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4F51FA89853C335DB6122C59D611253B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D192C8BD0F5743F062673FCFD563BE34 /* MotionDetection */,
+				DB7615F0AE2B11E857654D9C1B39008F /* Pods-MotionDetectionApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAF996F9EE8069DCBB59AE62E21DA448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D7B9BC172613CB7C9E0C85CB6C1427 /* Detection.swift in Sources */,
+				ED3E1C257E8B588BBBDF5F3212B96D44 /* MotionDetection-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7547332DEC567B8C3B00D582886E0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE36F72E152C4AF23ECB932BACDE509 /* Pods-MotionDetectionApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		348D76AC47C581FEE510873451BA0EDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MotionDetection;
+			target = D192C8BD0F5743F062673FCFD563BE34 /* MotionDetection */;
+			targetProxy = B6131A81C5F533ABCF08E66AA6D94B49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B0D5B146EF3DD89996A32125A101E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 211DCB62136CF4EB91B21CE77FDEFDA6 /* Pods-MotionDetectionApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MotionDetectionApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MotionDetectionApp/Pods-MotionDetectionApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5287181DC50265E4CF565DB77262942F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3D66043AE5A20936646858F8D0EC31C /* MotionDetection.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MotionDetection/MotionDetection-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MotionDetection/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MotionDetection/MotionDetection.modulemap";
+				PRODUCT_MODULE_NAME = MotionDetection;
+				PRODUCT_NAME = MotionDetection;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A72224679F246D477B632849A0B5CD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3D66043AE5A20936646858F8D0EC31C /* MotionDetection.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MotionDetection/MotionDetection-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MotionDetection/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MotionDetection/MotionDetection.modulemap";
+				PRODUCT_MODULE_NAME = MotionDetection;
+				PRODUCT_NAME = MotionDetection;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD37F668D0FFB933B7691E5C18272333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E25E0841AB122DCD6A829FDA94623034 /* Pods-MotionDetectionApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MotionDetectionApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MotionDetectionApp/Pods-MotionDetectionApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B5404B190A41846A69843556527CE4E /* Build configuration list for PBXNativeTarget "Pods-MotionDetectionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0D5B146EF3DD89996A32125A101E81 /* Debug */,
+				FD37F668D0FFB933B7691E5C18272333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4374AD185F35693E794A0F6133A915B3 /* Build configuration list for PBXNativeTarget "MotionDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5287181DC50265E4CF565DB77262942F /* Debug */,
+				A72224679F246D477B632849A0B5CD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

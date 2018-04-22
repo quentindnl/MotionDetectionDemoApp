@@ -1,0 +1,22 @@
+{
+  "name": "MotionDetection",
+  "version": "0.0.1",
+  "summary": "MotionDetection use iOS sensors to detect motion.",
+  "description": "MotionDetection : MotionDetection use iOS sensors to detect motion.",
+  "homepage": "https://github.com/quentindnl/MotionDetection",
+  "license": "MIT",
+  "authors": {
+    "": ""
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/quentindnl/MotionDetection.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "MotionDetection",
+    "MotionDetection/**/*.{h,m}"
+  ]
+}
